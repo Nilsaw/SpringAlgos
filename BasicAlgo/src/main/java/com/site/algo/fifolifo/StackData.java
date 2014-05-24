@@ -44,13 +44,13 @@ public class StackData {
 		if (!stack.isEmpty()) {
 			String data = getData();
 			reverseStack();
-			putData(data);
+			pushInStack(data);
 		}
 	}
 
 	void pushInStack(String a) {
 		if (stack.isEmpty()) {
-			putData(a);;
+			putData(a);
 			return;
 		}
 		String b = stack.pop();
