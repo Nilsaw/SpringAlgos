@@ -53,7 +53,7 @@ public class StackData {
 			putData(a);
 			return;
 		}
-		String b = stack.pop();
+		String b = getData();
 		pushInStack(a);
 		putData(b);
 	}
